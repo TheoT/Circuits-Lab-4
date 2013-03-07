@@ -2,6 +2,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[]{graphicx}
 \usepackage[margin=1in]{geometry}
+\usepackage{float}
 
 \title{Circuits Lab 4}
 \author{Theo Thompson and Dan Kearney}
@@ -32,10 +33,120 @@ Beta is very consistent across the four transistors. We calculated the standard 
 
 \begin{figure}[h!]
 \begin{center}
-\includegraphics[scale=.6]{exp1a.png}
+%\includegraphics[scale=.6]{exp1a.png}
 \caption{}
 \label{fig:exp1a}
 \end{center}
 \end{figure}
+
+\section*{Experiment 2}
+
+In experiment 2, we analyzed the first translinear circuit, shown in Figure ~\ref{fig:tl1}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{tl1.png}
+\caption{Translinear circuit 1.}
+\label{fig:tl1}
+\end{center}
+\end{figure}
+
+\subsection*{Configuration 1: Sweeping $I_x$}
+
+For our first configuration of the first circuit, we held the current $I_y$ constant using a current sink that we made using the circuit shown in Figure ~\ref{fig:sink}.  We sourced $I_x$ using the SMU and measured the current $I_z$ with the SMU as well.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{sink.png}
+\caption{Our current sink.}
+\label{fig:sink}
+\end{center}
+\end{figure}
+
+We held that current sink constant by choosing our $V_{in}$ and our $R$ values such that we could produce a wide range of currents.  We held $I_y$ constant and used the SMU to sweep $I_x$ over several orders of magnitude of current.   We did this for three values of $I_y$ that scaled three orders of magnitude.
+
+From our prelab, we expect that this translinear circuit obeys the equation $I_x I_y = I_z ^2$.  As a result, when we hold $I_y$ constant, we expect $I_z = \sqrt{I_xI_y}$.  
+
+Our experiment result, and our theoretical expectation, are shown in Figure~\ref{fig:exp2sweepx}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75]{exp2_sweepx.png}
+\caption{Translinear circuit 1, holding $I_y$ at the values shown in the legend.}
+\label{fig:exp2sweepx}
+\end{center}
+\end{figure}
+
+In general, this circuit behaves as we would expect from our analysis.  At small input currents, the output current is a little lower than expected, but we can expect that low currents are difficult for the SMU to write and read accurately.
+
+\subsection*{Configuration 2}
+
+Next, we took the same circuit from before and replaced the current sink with one channel of the SMU, such that we could sweep $I_y$, and held $I_x$ constant with a current source that we built.  Our current source is shown in Figure~\ref{fig:source}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{source.png}
+\caption{Our current source.}
+\label{fig:source}
+\end{center}
+\end{figure}
+
+We chose appropriate values of $V_{in}$ and R such that we could sweep our $I_y$ over several orders of magnitude, as in configuration 1.
+
+Again, we expected, from the prelab, that $I_z = \sqrt{I_xI_y}$.  Our results are shown in Figure~\ref{fig:exp2sweepy}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75]{exp2_sweepy.png}
+\caption{Translinear circuit 1, holding $I_x$ at the values shown in the legend.}
+\label{fig:exp2sweepy}
+\end{center}
+\end{figure}
+
+This circuit behaved well for low $I_x$ currents.  The expected and theoretical approaches are almost indistinguishable for $I_x = 10 \mu A$.  However, for high $I_x$, we found that the circuit broke down at high $I_y$ and started to decrease.  We believe that the dichotomy of very small measurement and very high output might have caused the SMU to fail.
+
+\section*{Translinear Circuit 2}
+
+We then repeated the experiments with a slightly different circuit, shown in Figure~\ref{fig:tl2}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{tl2.png}
+\caption{Translinear circuit 2.}
+\label{fig:tl2}
+\end{center}
+\end{figure}
+
+As we did before, we used one channel of the SMU to sweep one of the currents in the circuit while holding the other current constant using current source or sink we built.
+
+\subsection*{Configuration 1}
+
+In the first configuration, we held $I_y$ constant with our hand-built current sink and swept $I_x$ with the SMU.  
+
+From the prelab, we expect this circuit to follow $I_x ^2 = I_z I_y$.  As a result, holding $I_y$ constant should yield $I_z = \frac{I_x^2}{I_y}$, which means that $I_z$ will increase linearly on a log-log scale as we sweep $I_x$.  Our results are in Figure~\ref{fig:tl2sweepx}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75]{exp3_sweepx.png}
+\caption{Translinear circuit 2, holding $I_y$ at the values shown in the legend.}
+\label{fig:tl2sweepx}
+\end{center}
+\end{figure}
+
+We swept over a high dynamic range (five orders of magnitude) and found that the data matched the theoretical expectation very well for the majority of the range of our input current values.  We found that decreasing $I_y$ caused the current to increase more slowly as we increased $I_x$, which we can attribute to the difficulty in sourcing nanoamps of current while measuruing millamps of current.
+
+\subsection*{Configuration 2}
+
+We then switched our circuit around such that our current source was holding $I_x$ constant and the SMU swept $I_y$ over a high dynamic range.  Again, we expect $I_z = \frac{I_x^2}{I_y}$, which means that $I_z$ should decrease linearly on a log-log scale as we sweep $I_y$.  Our results can be seen in Figure~\ref{fig:tl2sweepy}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.75]{exp3_sweepy.png}
+\caption{Translinear circuit 2, holding $I_x$ at the values shown in the legend.}
+\label{fig:tl2sweepy}
+\end{center}
+\end{figure}
+
+This was our worst-behaved configuration.  We found that we if we decreased $I_x$ below around 20 uA, $I_z$ was dominated by the non-linear region we believe is in error.  If we increased $I_x$ to more than 100 uA, we found that $I_z$ was very noisy for large input values.  As a result, we only measured $I_y$ for $I_x$ at values of 22 uA, 10 uA, and 100 uA.
 
 \end{document}
