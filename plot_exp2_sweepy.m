@@ -20,7 +20,7 @@ loglog(-I_y_src, I_z_exp, 'r-','linewidth',2)
 
 
 legend('1 uA experimental','1 uA theoretical','10 uA experimental','10uA theoretical','100 uA experimental','100 uA theoretical', 'location','best')
-xlabel 'I_x (Amps)'
+xlabel 'I_y (Amps)'
 ylabel 'I_z (Amps)'
 title('Translinear Circuit 1, Sweeping I_y', 'fontsize',20)
 saveas(gcf, 'exp2_sweepy.png')

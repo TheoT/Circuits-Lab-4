@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.25)  7 MAR 2013 15:14
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.25)  7 MAR 2013 17:10
 entering extended mode
 **main.tex
 (C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.tex
@@ -307,33 +307,41 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks17
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+)
 (C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 (C:\Users\Dan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
+\scratchcounter=\count92
 \scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks18
-\MPscratchCnt=\count94
+\scratchbox=\box28
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count95
 \MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks19
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks21
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -370,41 +378,98 @@ LaTeX Font Info:    ... okay on input line 10.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 16.
+(Font)              <7> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
-[1
+(Font)              <5> on input line 17.
+<tl1.png, id=1, 248.42813pt x 293.59688pt>
+File: tl1.png Graphic file (type png)
+ <use tl1.png>
+Package pdftex.def Info: tl1.png used on input line 50.
+(pdftex.def)             Requested size: 124.21376pt x 146.79807pt.
+ [1
 
 {C:/Users/Dan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<sink.png, id=16, 307.90031pt x 270.25969pt>
+File: sink.png Graphic file (type png)
+ <use sink.png>
+Package pdftex.def Info: sink.png used on input line 62.
+(pdftex.def)             Requested size: 153.94977pt x 135.1295pt.
+
+<exp2_sweepx.png, id=17, 578.16pt x 433.62pt>
+File: exp2_sweepx.png Graphic file (type png)
+ <use exp2_sweepx.png>
+Package pdftex.def Info: exp2_sweepx.png used on input line 76.
+(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
+ [2 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl1.png> <C:/Users/Dan/Docu
+ments/Circuits/Circuits-Lab-4/sink.png>] <source.png, id=24, 278.54062pt x 274.
+77657pt>
+File: source.png Graphic file (type png)
+
+<use source.png>
+Package pdftex.def Info: source.png used on input line 90.
+(pdftex.def)             Requested size: 139.26996pt x 137.38794pt.
+ [3 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp2_sweepx.png (PNG copy)>
+] <exp2_sweepy.png, id=28, 578.16pt x 433.62pt>
+File: exp2_sweepy.png Graphic file (type png)
+
+<use exp2_sweepy.png>
+Package pdftex.def Info: exp2_sweepy.png used on input line 102.
+(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
+ <tl2.png, id=29, 271.76532pt x 304.88907pt>
+File: tl2.png Graphic file (type png)
+
+<use tl2.png>
+Package pdftex.def Info: tl2.png used on input line 116.
+(pdftex.def)             Requested size: 135.88232pt x 152.44415pt.
+ [4 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/source.png> <C:/Users/Dan/D
+ocuments/Circuits/Circuits-Lab-4/exp2_sweepy.png (PNG copy)>]
+<exp3_sweepx.png, id=33, 578.16pt x 433.62pt>
+File: exp3_sweepx.png Graphic file (type png)
+ <use exp3_sweepx.png>
+Package pdftex.def Info: exp3_sweepx.png used on input line 132.
+(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
+ [5 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl2.png>]
+<exp3_sweepy.png, id=38, 578.16pt x 433.62pt>
+File: exp3_sweepy.png Graphic file (type png)
+ <use exp3_sweepy.png>
+Package pdftex.def Info: exp3_sweepy.png used on input line 146.
+(pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
+ [6 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepx.png (PNG copy)>
+] [7 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepy.png (PNG copy)
+>]
 (C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux) ) 
 Here is how much of TeX's memory you used:
- 1827 strings out of 494045
- 24318 string characters out of 3145975
- 84000 words of memory out of 3000000
- 5132 multiletter control sequences out of 15000+200000
- 7280 words of font info for 26 fonts, out of 3000000 for 9000
+ 1937 strings out of 494045
+ 25839 string characters out of 3145975
+ 86436 words of memory out of 3000000
+ 5229 multiletter control sequences out of 15000+200000
+ 7587 words of font info for 27 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,8n,32p,452b,190s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,8n,32p,452b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x
 86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (1 page, 102219 bytes).
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb>
+Output written on main.pdf (7 pages, 291049 bytes).
 PDF statistics:
- 46 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
