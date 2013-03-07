@@ -13,7 +13,7 @@
 
 \section*{Experiment 1}
 
-\indent Our first experiment compared transistors on the same MAT14 transistor array. For each npn transistor, we tied the collector to the +5V power rail and grounded the emitter. We swept the base voltage from .25V to .65V to characterize the transistor. One way of measuring how well matched transistors are is to measure $\beta$ and $I_{s}$. To do this, we calculated the collector current using KCL: \[I_{e}=I{b}+I_{c}\]
+Our first experiment compared transistors on the same MAT14 transistor array. For each npn transistor, we tied the collector to the +5V power rail and grounded the emitter. We swept the base voltage from .25V to .65V to characterize the transistor. One way of measuring how well matched transistors are is to measure $\beta$ and $I_{s}$. To do this, we calculated the collector current using KCL: \[I_{e}=I{b}+I_{c}\]
 We then calculated $\beta$:\[\beta=\frac{I_{b}}{I_{c}}\]
 To calculate $I_{s}$, we used the following relationship: \[I_{c}=I_{s}e^{\frac{V_{be}}{U_{t}}}\]
 Where $V_{be}$ is the base-emitter voltage that we sourced with the SMU. The results of our calculation are summarized in the table below.
@@ -25,12 +25,10 @@ Where $V_{be}$ is the base-emitter voltage that we sourced with the SMU. The res
     $877.97$ & $2.10*10^{-13}$ \\ \hline
     $875.66$ & $2.07*10^{-13}$ \\ \hline
     \end{tabular}
-    STD beta: 1.18\\
     STD Is: 3.7749e-15
 \end{center}
 
-Beta 
-
+Beta is very consistent across the four transistors. We calculated the standard deviation of $\beta$ to be $1.18$, which is about $.1\%$. The standard deviation of $I_{s}$ is $3.78*10^{-15}$, which is about $3.6\%$. These deviation values suggest that the transistors in the MAT14 transistor array are very well matched.
 
 \begin{figure}[h!]
 \begin{center}
