@@ -1,0 +1,10 @@
+clf
+clear all
+
+load exp3_sweepy_100KOHM
+loglog(-I_y_src, I_z_meas,'bo')
+hold on
+I_z_exp = (.22e-4) .^ 2 ./ -I_y_src;  %call it 25
+loglog(-I_y_src, I_z_exp,'b-','linewidth',2)
+
+load exp3_sweepy_

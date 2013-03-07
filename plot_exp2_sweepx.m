@@ -20,7 +20,7 @@ loglog(I_x_src, I_z_meas, 'ko')
 I_z_exp = sqrt(1e-5 * I_x_src);
 loglog(I_x_src, I_z_exp, 'k-','linewidth',2)
 
-legend('1 mA experimental','1 mA theoretical','100 uA experimental','100uA theoretical','10 uA experimental','10 uA theoretical', 'location','best')
+legend('1 mA experimental','1 mA theoretical','100 uA experimental','100uA theoretical','10 uA experimental','10 uA theoretical', 'location','northwest')
 xlabel 'I_x (Amps)'
 ylabel 'I_z (Amps)'
 title('Translinear Circuit 1, Sweeping I_x', 'fontsize',20)
