@@ -4,6 +4,7 @@ load('exp1_trans1.mat')
 figure(1)
 semilogy(V_base_src,-I_coll_calc,'om')
 I_coll_1=I_coll_calc;
+I_base_1=I_base_meas;
 beta1=beta;
 hold on
 % figure(2)
@@ -16,6 +17,7 @@ semilogy(V_base_src,-I_coll_calc,'or')
 % figure(2)
 semilogy(V_base_src,I_base_meas,'r+')
 I_coll_2=I_coll_calc;
+I_base_2=I_base_meas;
 beta2=beta;
 
 
@@ -25,6 +27,7 @@ semilogy(V_base_src,-I_coll_calc,'ob')
 % figure(2)
 semilogy(V_base_src,I_base_meas,'b+')
 I_coll_3=I_coll_calc;
+I_base_3=I_base_meas;
 beta3=beta;
 
 load('exp1_trans4.mat')
@@ -33,6 +36,7 @@ semilogy(V_base_src,-I_coll_calc,'ok')
 % figure(2)
 semilogy(V_base_src,I_base_meas,'k+')
 I_coll_4=I_coll_calc;
+I_base_4=I_base_meas;
 beta4=beta;
 
 % label
@@ -68,16 +72,16 @@ ylabel('Collector Current Error','FontSize', 12);
 % drawgreygridlines();
 %% plot beta as a function of V_base_src
 
-% figure(5)
-% semilogy(V_base_src,abs(beta1),'m.');
-% hold on
-% semilogy(V_base_src,abs(beta2),'r.');
-% semilogy(V_base_src,abs(beta3),'b.');
-% semilogy(V_base_src,abs(beta4),'k.');
-% title('$\beta$ as a Function of Base Voltage','FontSize', 14,'Interpreter','latex');
-% xlabel('Base Voltage (V)','FontSize', 12,'Interpreter','latex');
-% ylabel('$\beta$ ($\frac{I}{I}$)','FontSize', 12,'Interpreter','latex');
-% leg=legend('Transistor 1','Transistor 2','Transistor 3','Transistor 4','location','best')
-% set(leg,'FontSize',12);
+figure(5)
+semilogx(I_base_1,abs(beta1),'m.');
+hold on
+semilogx(I_base_2,abs(beta2),'r.');
+semilogx(I_base_3,abs(beta3),'b.');
+semilogx(I_base_4,abs(beta4),'k.');
+title('$\beta$ as a Function of Base Current','FontSize', 14,'Interpreter','latex');
+xlabel('Base Current (I)','FontSize', 12,'Interpreter','latex');
+ylabel('$\beta$ ($\frac{I}{I}$)','FontSize', 12,'Interpreter','latex');
+leg=legend('Transistor 1','Transistor 2','Transistor 3','Transistor 4','location','best')
+set(leg,'FontSize',12);
 
 % drawgreygridlines();
