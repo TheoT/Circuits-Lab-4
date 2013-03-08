@@ -1,8 +1,0 @@
-load exp2_sweepx_390OHM
-loglog(I_x_src, I_z_meas,'.')
-hold on
-
-clear all
-load exp2_sweepx_390OHM
-loglog(I_x_src, I_z_meas,'.')
-hold on
