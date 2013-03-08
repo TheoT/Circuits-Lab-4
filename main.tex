@@ -82,7 +82,17 @@ For our first configuration of the first circuit, we held the current $I_y$ cons
 \end{center}
 \end{figure}
 
-We held that current sink constant by choosing our $V_{in}$ and our $R$ values such that we could produce a wide range of currents.  We held $I_y$ constant and used the SMU to sweep $I_x$ over several orders of magnitude of current.   We did this for three values of $I_y$ that scaled three orders of magnitude.
+\subsubsection*{The Current Sink}
+
+We held that current sink constant by choosing our $V_{in}$ and our $R$ values such that we could produce a wide range of currents.  We knew from our prelab that the voltage at the base of the bottom-left transistor, $V_y$, will be approximately .6 V in forward-active mode.  Since the voltage will wiggle around .6 V, we needed the sink collector voltage, held at $V_{in}$ by the op-amp, to be underneath that by at least $V_{CEsat} \approx 200 mV$, so we chose a voltage that was well underneath it,  .1 V.
+
+We generated .1 V at $V_{in}$ by using a voltage divider with resistor values 200 Ohms and 10k Ohms. Since our voltage source was 5 V, our resulting voltage at $V_{in}$ was .1 V.  
+
+We used that voltage to generate a current through the current sink.  To generate 10 uA, by Ohm's law, we needed a resistor with resistance 10k $\Omega$; for 100 uA, 1k $\Omega$; for 1 mA, 100 $\Omega$.
+
+\subsubsection*{Measurement}
+
+We held $I_y$ constant and used the SMU to sweep $I_x$ over several orders of magnitude of current.   We did this for three values of $I_y$ that scaled three orders of magnitude.
 
 From our prelab, we expect that this translinear circuit obeys the equation $I_x I_y = I_z ^2$.  As a result, when we hold $I_y$ constant, we expect $I_z = \sqrt{I_xI_y}$.  
 
@@ -95,6 +105,8 @@ Our experiment result, and our theoretical expectation, are shown in Figure~\ref
 \label{fig:exp2sweepx}
 \end{center}
 \end{figure}
+
+\subsubsection*{Error Analysis}
 
 In general, this circuit behaves as we would expect from our analysis.  At small input currents, the output current is a little lower than expected, but we can expect that low currents are difficult for the SMU to write and read accurately.
 
@@ -110,7 +122,16 @@ Next, we took the same circuit from before and replaced the current sink with on
 \end{center}
 \end{figure}
 
+\subsection*{The Current Source}
+
 We chose appropriate values of $V_{in}$ and R such that we could sweep our $I_y$ over several orders of magnitude, as in configuration 1.
+
+For our voltage divider, we used a 2k $\Omega$ and a 3k $\Omega$ resistor to generate a voltage divider ratio of .4, and an output voltage of 3 Volts.
+
+From the prelab, we know that our output current is $\frac{5 - V_{in}}{R}$.  To generate 1 uA, we used a 2 M$\Omega$ resistor; for 10 uA, 200 k$\Omega$; for 100 uA, 20 k$\Omega$.
+
+\subsection*{Measurement}
+
 
 Again, we expected, from the prelab, that $I_z = \sqrt{I_xI_y}$.  Our results are shown in Figure~\ref{fig:exp2sweepy}.
 
@@ -122,11 +143,14 @@ Again, we expected, from the prelab, that $I_z = \sqrt{I_xI_y}$.  Our results ar
 \end{center}
 \end{figure}
 
+\subsection*{Error Analysis}
+
 This circuit behaved well for low $I_x$ currents.  The expected and theoretical approaches are almost indistinguishable for $I_x = 10 \mu A$.  However, for high $I_x$, we found that the circuit broke down at high $I_y$ and started to decrease.  We believe that the dichotomy of very small measurement and very high output might have caused the SMU to fail.
 
 \section*{Translinear Circuit 2}
 
 We then repeated the experiments with a slightly different circuit, shown in Figure~\ref{fig:tl2}.
+
 
 \begin{figure}[H]
 \begin{center}
@@ -142,6 +166,12 @@ As we did before, we used one channel of the SMU to sweep one of the currents in
 
 In the first configuration, we held $I_y$ constant with our hand-built current sink and swept $I_x$ with the SMU.  
 
+\subsubsection*{The Current Sink}
+
+This current sink was almost identical from the current sink we used in Translinear Circuit 1, but we desired a slightly different range of currents to make the transistors behave over three decades.  We used the same voltage divider to generate .1 V, but used a 200 k$\Omega$ resistor to generate 500 nA; for 5 uA, 20 k$\Omega$; for 50 uA, 2 k$\Omega$.
+
+\subsubsection*{Measurement}
+
 From the prelab, we expect this circuit to follow $I_x ^2 = I_z I_y$.  As a result, holding $I_y$ constant should yield $I_z = \frac{I_x^2}{I_y}$, which means that $I_z$ will increase linearly on a log-log scale as we sweep $I_x$.  Our results are in Figure~\ref{fig:tl2sweepx}.
 
 \begin{figure}[H]
@@ -152,11 +182,23 @@ From the prelab, we expect this circuit to follow $I_x ^2 = I_z I_y$.  As a resu
 \end{center}
 \end{figure}
 
-We swept over a high dynamic range (five orders of magnitude) and found that the data matched the theoretical expectation very well for the majority of the range of our input current values.  We found that decreasing $I_y$ caused the current to increase more slowly as we increased $I_x$, which we can attribute to the difficulty in sourcing nanoamps of current while measuruing millamps of current.
+We swept over a high dynamic range (five orders of magnitude) and found that the data matched the theoretical expectation very well for the majority of the range of our input current values.  
+
+\subsubsection*{Error Analysis}
+
+We found that decreasing $I_y$ caused the current to increase more slowly as we increased $I_x$, which we can attribute to the difficulty in sourcing nanoamps of current while measuruing millamps of current.
 
 \subsection*{Configuration 2}
 
-We then switched our circuit around such that our current source was holding $I_x$ constant and the SMU swept $I_y$ over a high dynamic range.  Again, we expect $I_z = \frac{I_x^2}{I_y}$, which means that $I_z$ should decrease linearly on a log-log scale as we sweep $I_y$.  Our results can be seen in Figure~\ref{fig:tl2sweepy}.
+We then switched our circuit around such that our current source was holding $I_x$ constant and the SMU swept $I_y$ over a high dynamic range.  Again, we expect $I_z = \frac{I_x^2}{I_y}$, which means that $I_z$ should decrease linearly on a log-log scale as we sweep $I_y$.  
+
+\subsubsection*{The Current Source}
+
+We used a similar current source to the one that we used in Translinear Circuit 1.  However, we swept over a slightly tighter dynamic range (about one and a half orders of magnitude).  To generate 22 uA, we used a 90 k$\Omega$ resistor; for 10 uA, 200 k$\Omega$; and for 100 uA, 20 k$\Omega$.
+
+\subsubsection*{Measurement}
+
+Our results can be seen in Figure~\ref{fig:tl2sweepy}.
 
 \begin{figure}[H]
 \begin{center}

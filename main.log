@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.25)  8 MAR 2013 09:06
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.25)  8 MAR 2013 09:53
 entering extended mode
 **main.tex
 (C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.tex
@@ -425,73 +425,71 @@ sers/Dan/Documents/Circuits/Circuits-Lab-4/tl1.png>] <exp2_sweepx.png, id=28, 5
 File: exp2_sweepx.png Graphic file (type png)
 
 <use exp2_sweepx.png>
-Package pdftex.def Info: exp2_sweepx.png used on input line 93.
+Package pdftex.def Info: exp2_sweepx.png used on input line 103.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [4 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/sink.png> <C:/Users/Dan/Doc
-uments/Circuits/Circuits-Lab-4/exp2_sweepx.png (PNG copy)>] <source.png, id=33,
- 278.54062pt x 274.77657pt>
+ [4 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/sink.png>] <source.png, id=
+34, 278.54062pt x 274.77657pt>
 File: source.png Graphic file (type png)
  <use source.png>
-Package pdftex.def Info: source.png used on input line 107.
+Package pdftex.def Info: source.png used on input line 119.
 (pdftex.def)             Requested size: 139.26996pt x 137.38794pt.
-
-<exp2_sweepy.png, id=34, 578.16pt x 433.62pt>
+ [5 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp2_sweepx.png (PNG copy)>
+]
+<exp2_sweepy.png, id=38, 578.16pt x 433.62pt>
 File: exp2_sweepy.png Graphic file (type png)
  <use exp2_sweepy.png>
-Package pdftex.def Info: exp2_sweepy.png used on input line 119.
+Package pdftex.def Info: exp2_sweepy.png used on input line 140.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [5 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/source.png>]
-<tl2.png, id=38, 271.76532pt x 304.88907pt>
+ [6 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/source.png>]
+<tl2.png, id=42, 271.76532pt x 304.88907pt>
 File: tl2.png Graphic file (type png)
  <use tl2.png>
-Package pdftex.def Info: tl2.png used on input line 133.
+Package pdftex.def Info: tl2.png used on input line 157.
 (pdftex.def)             Requested size: 135.88232pt x 152.44415pt.
- [6 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp2_sweepy.png (PNG copy)>
+ [7 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp2_sweepy.png (PNG copy)>
 ]
-<exp3_sweepx.png, id=42, 578.16pt x 433.62pt>
+<exp3_sweepx.png, id=47, 578.16pt x 433.62pt>
 File: exp3_sweepx.png Graphic file (type png)
  <use exp3_sweepx.png>
-Package pdftex.def Info: exp3_sweepx.png used on input line 149.
+Package pdftex.def Info: exp3_sweepx.png used on input line 179.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [7 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl2.png>]
-<exp3_sweepy.png, id=48, 578.16pt x 433.62pt>
+ [8 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl2.png>]
+<exp3_sweepy.png, id=52, 578.16pt x 433.62pt>
 File: exp3_sweepy.png Graphic file (type png)
  <use exp3_sweepy.png>
-Package pdftex.def Info: exp3_sweepy.png used on input line 163.
+Package pdftex.def Info: exp3_sweepy.png used on input line 205.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [8 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepx.png (PNG copy)>
-] [9 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepy.png (PNG copy)
->]
-(C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+ [9 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepx.png (PNG copy)>
+] [10 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepy.png (PNG copy
+)>]
+(C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux) ) 
 Here is how much of TeX's memory you used:
- 1954 strings out of 494045
- 26053 string characters out of 3145975
- 86454 words of memory out of 3000000
- 5243 multiletter control sequences out of 15000+200000
- 7587 words of font info for 27 fonts, out of 3000000 for 9000
+ 1956 strings out of 494045
+ 26074 string characters out of 3145975
+ 86455 words of memory out of 3000000
+ 5244 multiletter control sequences out of 15000+200000
+ 7895 words of font info for 28 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  27i,8n,32p,568b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on main.pdf (9 pages, 326067 bytes).
+<C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy7.pfb>
+Output written on main.pdf (10 pages, 346098 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
