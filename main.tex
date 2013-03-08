@@ -28,11 +28,11 @@ Where $V_{be}$ is the base-emitter voltage that we sourced with the SMU. The res
     \end{tabular}
 \end{center}
 
-Beta is very consistent across the four transistors. We calculated the standard deviation of $\beta$ to be $1.18$, which is about $.1\%$. The standard deviation of $I_{s}$ is $3.78*10^{-15}$, which is about $3.6\%$. These deviation values suggest that the transistors in the MAT14 transistor array are very well matched. To further investigate $\beta$ across all 4 resistors, we plotted $\beta$ as a function of base current in figure ~\ref{fig:exp1c}.  The plot shows that $\beta$ is well matched across all operation regions of the transistors.
+Beta is very consistent across the four transistors. We calculated the standard deviation of $\beta$ to be $1.18$, which is about $.1\%$. The standard deviation of $I_{s}$ is $3.78*10^{-15}$, which is about $3.6\%$. These deviation values suggest that the transistors in the MAT14 transistor array are very well matched. To further investigate $\beta$ across all 4 resistors, we plotted $\beta$ as a function of base voltage in figure ~\ref{fig:exp1c}. The plot shows that $\beta$ is well matched across all operation regions of the transistors.
 \begin{figure}[H]
 \begin{center}
 \includegraphics[scale=.8]{exp1c.png}
-\caption{$\beta$ as a function of $I_{b}$ across all 4 devices.}
+\caption{$\beta$ as a function of $V_{be}$ across all 4 devices.}
 \label{fig:exp1c}
 \end{center}
 \end{figure}
@@ -118,7 +118,7 @@ Our experiment result, and our theoretical expectation, are shown in Figure~\ref
 
 \subsubsection*{Error Analysis}
 
-In general, this circuit behaves as we would expect from our analysis.  At small input currents, the output current is a little lower than expected, but we can expect that low currents are difficult for the SMU to write and read accurately.
+In general, this circuit behaves as we would expect from our analysis.  For many decades, we see the expected line.  However, in the low-current regions, we see that the current deviates from that line.  This could be the SMU, but I believe a SMU issue would look noisy, and this looks smooth.  Our current sink might not be in forward-active mode, but we chose our voltages such that we can almost guarantee forward-active mode, so I believe it is not that.  A feasible explanation is that this is the small-signal Early effect, which makes the transistor linear, rather than exponential, in the small signal region - which would appear logarithmic on a loglog plot, which is similar to what we see here.  As the current increases, this becomes negligible.
 
 \subsection*{Configuration 2}
 
@@ -155,7 +155,7 @@ Again, we expected, from the prelab, that $I_z = \sqrt{I_xI_y}$.  Our results ar
 
 \subsection*{Error Analysis}
 
-This circuit behaved well for low $I_x$ currents.  The expected and theoretical approaches are almost indistinguishable for $I_x = 10 \mu A$.  However, for high $I_x$, we found that the circuit broke down at high $I_y$ and started to decrease.  We believe that the dichotomy of very small measurement and very high output might have caused the SMU to fail.
+This circuit behaved well for almost all $I_x$ for all except one transistor.  However, with a high $I_y$ we found that our circuit produced a very strange $I_z$ at high current.  We think we might have actually damaged a transistor during that measurement, possibly from pushing too much current through,  because we were unable to take another measurement with a higher data rate without the output current becoming completely unstable.
 
 \section*{Translinear Circuit 2}
 
@@ -196,7 +196,23 @@ We swept over a high dynamic range (five orders of magnitude) and found that the
 
 \subsubsection*{Error Analysis}
 
-We found that decreasing $I_y$ caused the current to increase more slowly as we increased $I_x$, which we can attribute to the difficulty in sourcing nanoamps of current while measuruing millamps of current.
+We found that decreasing $I_y$ caused the current to increase more slowly as we increased $I_x$, and that this effect seems to depend, on first glance, on $I_y$. There are many possible explanations for this error.  We could chalk it up to the SMU, however the SMU would most likely create ugly, noisy data (like in the small-current region of the 50 uA measurement, which is almost certainly a SMU issue).  This error is continuous and smooth, so is probably a circuit characteristic. 
+
+Another explanation is that our chosen current sink voltage is too low, and thus the current sink is not pulling enough current, however our choice of voltage should have protected us from any possible voltage that this circuit could produce.
+
+Another explanation is a compounding Early effect.  This would involve some or all of the transistors having an Early effect that adds up, causing the translinear property to hold a little less well.  This might be reasonable.
+
+However, we can get a deeper understanding by looking critically at the data itself.  Though it seems that the effect is $I_y$ dependent, on closer inspection, all of the data appears to flatten into a particular line when it intersects that line.  It turns out that that line has slope 1, as seen in Figure~\ref{fig:err}.
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[scale=.5]{exp3_sweepx_err.png}
+\caption{Translinear circuit 2, with a best-fit line plotted on the error region.}
+\label{fig:err}
+\end{center}
+\end{figure}
+
+In the log-log plot, this best-fit line has a slope of 1, meaning that is just a shifted version of $I_x$.  This means that the output current, Z, no longer has a squared relationship with $I_x$ but rather a linear one.  This is interesting, but still confusing.  It may be that our transistors are not perfectly matched and have trouble squaring the current after the output needs to be higher than the input.
 
 \subsection*{Configuration 2}
 
@@ -218,6 +234,8 @@ Our results can be seen in Figure~\ref{fig:tl2sweepy}.
 \end{center}
 \end{figure}
 
-This was our worst-behaved configuration.  We found that we if we decreased $I_x$ below around 20 uA, $I_z$ was dominated by the non-linear region we believe is in error.  If we increased $I_x$ to more than 100 uA, we found that $I_z$ was very noisy for large input values.  As a result, we only measured $I_y$ for $I_x$ at values of 22 uA, 10 uA, and 100 uA.
+\subsubsection*{Error Analysis}
+
+This was our worst-behaved configuration.  We found that we if we increased $I_x$ above ~20 uA, $I_z$ was dominated by the non-linear region we discussed at length in configuration 1.  If we decreased $I_x$ to less than 100 uA, we found that $I_z$ was very noisy for large input values, which we believe is SMU noise: the measured currents are very low, in the tens of nanoamps, and this is difficult to measure.  As a result, we only measured $I_y$ for $I_x$ at values of 22 uA, 10 uA, and 100 uA because these produced a reasonable response over a reasonable range of currents.
 
 \end{document}
