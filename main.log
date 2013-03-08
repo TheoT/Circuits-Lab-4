@@ -1,18 +1,18 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.8.25)  7 MAR 2013 17:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.3.3)  7 MAR 2013 18:47
 entering extended mode
-**main.tex
-(C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.tex
+**C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/main.tex
+(C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/main.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"
@@ -315,7 +315,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box27
 )
-(C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux)
+(C:\Users\theod_000\Documents\GitHub\Circuits-Lab-4\main.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
@@ -329,7 +329,7 @@ LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 
-(C:\Users\Dan\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count92
 \scratchdimen=\dimen113
@@ -387,89 +387,150 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 17.
-<tl1.png, id=1, 248.42813pt x 293.59688pt>
-File: tl1.png Graphic file (type png)
- <use tl1.png>
-Package pdftex.def Info: tl1.png used on input line 50.
-(pdftex.def)             Requested size: 124.21376pt x 146.79807pt.
+<exp1c.png, id=1, 581.17125pt x 225.09094pt>
+File: exp1c.png Graphic file (type png)
+ <use exp1c.png>
+Package pdftex.def Info: exp1c.png used on input line 34.
+(pdftex.def)             Requested size: 464.93764pt x 180.07298pt.
  [1
 
-{C:/Users/Dan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<sink.png, id=16, 307.90031pt x 270.25969pt>
-File: sink.png Graphic file (type png)
- <use sink.png>
-Package pdftex.def Info: sink.png used on input line 62.
-(pdftex.def)             Requested size: 153.94977pt x 135.1295pt.
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+<exp1a.png, id=16, 692.5875pt x 393.72093pt>
+File: exp1a.png Graphic file (type png)
+ <use exp1a.png>
+Package pdftex.def Info: exp1a.png used on input line 44.
+(pdftex.def)             Requested size: 415.5557pt x 236.23438pt.
 
-<exp2_sweepx.png, id=17, 578.16pt x 433.62pt>
+<exp1d.png, id=17, 472.01344pt x 313.9228pt>
+File: exp1d.png Graphic file (type png)
+ <use exp1d.png>
+Package pdftex.def Info: exp1d.png used on input line 54.
+(pdftex.def)             Requested size: 283.21025pt x 188.35512pt.
+ [2 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp1c.png (PNG copy)> <
+C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp1a.png (PNG copy)>]
+
+LaTeX Warning: File `tl1.png' not found on input line 67.
+
+
+! Package pdftex.def Error: File `tl1.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.67 \includegraphics[scale=.5]{tl1.png}
+                                        
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `sink.png' not found on input line 79.
+
+
+! Package pdftex.def Error: File `sink.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.79 \includegraphics[scale=.5]{sink.png}
+                                         
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<exp2_sweepx.png, id=21, 578.16pt x 433.62pt>
 File: exp2_sweepx.png Graphic file (type png)
  <use exp2_sweepx.png>
-Package pdftex.def Info: exp2_sweepx.png used on input line 76.
+Package pdftex.def Info: exp2_sweepx.png used on input line 93.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [2 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl1.png> <C:/Users/Dan/Docu
-ments/Circuits/Circuits-Lab-4/sink.png>] <source.png, id=24, 278.54062pt x 274.
-77657pt>
-File: source.png Graphic file (type png)
+ [3 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp1d.png (PNG copy)>]
 
-<use source.png>
-Package pdftex.def Info: source.png used on input line 90.
-(pdftex.def)             Requested size: 139.26996pt x 137.38794pt.
- [3 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp2_sweepx.png (PNG copy)>
-] <exp2_sweepy.png, id=28, 578.16pt x 433.62pt>
+LaTeX Warning: File `source.png' not found on input line 107.
+
+
+! Package pdftex.def Error: File `source.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 \includegraphics[scale=.5]{source.png}
+                                            
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<exp2_sweepy.png, id=29, 578.16pt x 433.62pt>
 File: exp2_sweepy.png Graphic file (type png)
-
-<use exp2_sweepy.png>
-Package pdftex.def Info: exp2_sweepy.png used on input line 102.
+ <use exp2_sweepy.png>
+Package pdftex.def Info: exp2_sweepy.png used on input line 119.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- <tl2.png, id=29, 271.76532pt x 304.88907pt>
-File: tl2.png Graphic file (type png)
+ [4 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp2_sweepx.png (PNG co
+py)>]
 
-<use tl2.png>
-Package pdftex.def Info: tl2.png used on input line 116.
-(pdftex.def)             Requested size: 135.88232pt x 152.44415pt.
- [4 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/source.png> <C:/Users/Dan/D
-ocuments/Circuits/Circuits-Lab-4/exp2_sweepy.png (PNG copy)>]
-<exp3_sweepx.png, id=33, 578.16pt x 433.62pt>
+LaTeX Warning: File `tl2.png' not found on input line 133.
+
+
+! Package pdftex.def Error: File `tl2.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 \includegraphics[scale=.5]{tl2.png}
+                                         
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[5 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp2_sweepy.png (PNG cop
+y)>] <exp3_sweepx.png, id=36, 578.16pt x 433.62pt>
 File: exp3_sweepx.png Graphic file (type png)
  <use exp3_sweepx.png>
-Package pdftex.def Info: exp3_sweepx.png used on input line 132.
+Package pdftex.def Info: exp3_sweepx.png used on input line 149.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [5 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/tl2.png>]
-<exp3_sweepy.png, id=38, 578.16pt x 433.62pt>
+
+<exp3_sweepy.png, id=37, 578.16pt x 433.62pt>
 File: exp3_sweepy.png Graphic file (type png)
  <use exp3_sweepy.png>
-Package pdftex.def Info: exp3_sweepy.png used on input line 146.
+Package pdftex.def Info: exp3_sweepy.png used on input line 163.
 (pdftex.def)             Requested size: 433.61893pt x 325.2142pt.
- [6 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepx.png (PNG copy)>
-] [7 <C:/Users/Dan/Documents/Circuits/Circuits-Lab-4/exp3_sweepy.png (PNG copy)
->]
-(C:\Users\Dan\Documents\Circuits\Circuits-Lab-4\main.aux) ) 
+ [6 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp3_sweepx.png (PNG co
+py)>]
+[7 <C:/Users/theod_000/Documents/GitHub/Circuits-Lab-4/exp3_sweepy.png (PNG cop
+y)>] (C:\Users\theod_000\Documents\GitHub\Circuits-Lab-4\main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1937 strings out of 494045
- 25839 string characters out of 3145975
- 86436 words of memory out of 3000000
+ 1940 strings out of 493921
+ 25864 string characters out of 3144865
+ 86600 words of memory out of 3000000
  5229 multiletter control sequences out of 15000+200000
- 7587 words of font info for 27 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 27i,8n,32p,452b,252s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb>
-Output written on main.pdf (7 pages, 291049 bytes).
+ 7755 words of font info for 28 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,8n,32p,619b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (7 pages, 304577 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
