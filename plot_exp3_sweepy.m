@@ -21,7 +21,7 @@ hold on
 I_z_exp = (1e-6) .^ 2 ./ -I_y_src;  %call it 25
 loglog(-I_y_src, I_z_exp,'k-','linewidth',2)
 
-legend('22 uA experimental','22 uA theoretical','10 uA experimental','10 uA theoretical','100 uA experimental','100 uA theoretical', 'location','southwest')
+legend('22 uA experimental','22 uA theoretical','10 uA experimental','10 uA theoretical','1 uA experimental','1 uA theoretical', 'location','southwest')
 xlabel 'I_y (Amps)'
 ylabel 'I_z (Amps)'
 title('Translinear Circuit 2, Sweeping I_y', 'fontsize',20)
