@@ -14,7 +14,7 @@
 
 \section*{Experiment 1}
 
-Our first experiment compared transistors on the same MAT14 transistor array. For each npn transistor, we tied the collector to the +5V power rail and grounded the emitter. We swept the base voltage from .25V to .65V to characterize the transistor. One way of measuring how well matched transistors are is to measure $\beta$ and $I_{s}$. To do this, we calculated the collector current using KCL: \[I_{e}=I_{b}+I_{c}\]
+Our first experiment compared transistors on the same MAT14 transistor array. For each NPN transistor, we tied the collector to the +5V power rail and grounded the emitter. We swept the base voltage from .25V to .65V to characterize the transistor. We chose these values to sweep from a low current (one that the SMU could just barely source) to a current safely under the maximum the SMU could source. One way of measuring how well matched transistors are is to measure $\beta$ and $I_{s}$. To do this, we calculated the collector current using KCL: \[I_{e}=I_{b}+I_{c}\]
 We then calculated $\beta$:\[\beta=\frac{I_{b}}{I_{c}}\]
 To calculate $I_{s}$, we used the following relationship: \[I_{c}=I_{s}e^{\frac{V_{be}}{U_{t}}}\]
 Where $V_{be}$ is the base-emitter voltage that we sourced with the SMU. The results of our calculation are summarized in the table below.
@@ -155,7 +155,7 @@ Again, we expected, from the prelab, that $I_z = \sqrt{I_xI_y}$.  Our results ar
 
 \subsection*{Error Analysis}
 
-This circuit behaved well for almost all $I_x$ for all except one transistor.  However, with a high $I_y$ we found that our circuit produced a very strange $I_z$ at high current.  We think we might have actually damaged a transistor during that measurement, possibly from pushing too much current through,  because we were unable to take another measurement with a higher data rate without the output current becoming completely unstable.
+This circuit behaved well for almost all $I_x$ for all except one measurement.  For that measurement, ith a high $I_y$ we found that our circuit produced a very strange $I_z$ for a low value of $I_x$.  We think we might have actually damaged a transistor during that measurement,  because we were unable to take another measurement with a higher data rate without the output current becoming completely unstable.  
 
 \section*{Translinear Circuit 2}
 
@@ -212,7 +212,7 @@ However, we can get a deeper understanding by looking critically at the data its
 \end{center}
 \end{figure}
 
-In the log-log plot, this best-fit line has a slope of 1, meaning that is just a shifted version of $I_x$.  This means that the output current, Z, no longer has a squared relationship with $I_x$ but rather a linear one.  This is interesting, but still confusing.  It may be that our transistors are not perfectly matched and have trouble squaring the current after the output needs to be higher than the input.
+In the log-log plot, this best-fit line has a slope of 1, meaning that is just a shifted version of $I_x$.  This means that the output current, Z, no longer has a squared relationship with $I_x$ but rather a linear one.  This is interesting, but still confusing.  It may be that our transistors are not perfectly matched and have trouble squaring the current after the output needs to be higher than the input.  Honestly, we don't know for sure.
 
 \subsection*{Configuration 2}
 
